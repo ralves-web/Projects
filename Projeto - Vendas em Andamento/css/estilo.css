@@ -1,0 +1,89 @@
+body, html, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    /*
+    background:linear-gradient(40deg,#e05271,white);
+    background-attachment: fixed;
+    
+    background:
+    linear-gradient(40deg,#f5f2f2,white);
+    background-attachment: fixed;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+Navegacao
+
+
+*/
+
+
+nav.navbar-transparente {
+    padding: 8px 0px;
+
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(8, 6, 7);
+}
+
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.divisor  {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+
+
+/* Section
+
+*/
+
+section, .carousel1{
+
+    padding-top: 80px;
+    
+}
+
+
+.prev {
+    color: black;
+}
+
+/*
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);/* IE 9 *
+    -webkit-transform: rotate(30deg);/* Chrome, Safari, Opera *
+
+    
+}
+
+*/
+
+
+
+h2 {
+
+    color: rgb(226, 43, 226);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+
+}
