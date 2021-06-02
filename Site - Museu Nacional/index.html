@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Museu Nacional</title>
+        <meta charset="utf-8">
+
+        <!-- Normalize CSS -->
+
+        <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+
+        <!-- Estilo customizado para css -->
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]--> 
+        <!-- Esse arquivo acima é para que as nvas tags do HTML5 funcionem
+        corretamente dentro dos navegadores mais antigos-->
+
+
+        <body>
+            
+            <div id="container"> <!-- Início Container -->
+
+          <header><!--Inicio Header-->
+                    <div id="logo">
+                        <h1><a href="">Museu Nacional</a></h1>
+                    </div>
+
+             <nav><!--Inicio Nav-->
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pesquisa</a></li>
+                            <li><a href="#">Exposições</a></li>
+                            <li><a href="#">Vídeos</a></li>
+                            <li><a href="#">Fotos</a></li>
+                        </ul>
+    
+             </nav><!--Fim da Nav-->
+
+          </header><!--Fim Header-->
+
+           <div  id="principal"> <!--Inicio Principal-->
+
+                <div id="conteudo"><!--Inicio Conteudo-->
+                    
+                    <section id="capa">
+                        <img src="Imagens/museu.png">
+                    </section>
+
+                    <article id="video">
+                        <h3>Video: Conheça o Museu</h3>
+
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa Encontre o Museu</h3>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1618180541515!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os Assustadores insetos</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Plantas do Brasil</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Tipos de Ossos</a>
+                            </li>
+                            <li>
+                                <a href="#">Animais em extinção</a>
+                            </li>
+                        </ul>
+
+
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de História</h3>
+
+                        <p>
+                            Os museus modernos foram criados no século XVII a partir de doações de coleções particulares como a de Grimani a Veneza. Mas, o primeiro museu como conhecemos hoje surgiu a partir da doação da coleção de John Tradescant, feita por Elias Ashmole, à Universidade de Oxford, conhecido como Ashmolean Museum.
+                            <br>
+
+                            <a href="#">Leia mais..</a>
+
+                        </p>
+
+                    </article>
+
+                </div><!--Fim Conteudo-->
+
+                <aside><!--Inicio Aside-->
+
+                    <section id="depoimento">
+                        <img src="Imagens/depoimento.png">
+                    </section>
+
+                      <section id="visita"> <!--Inicio da Sessão Visita-->
+                         <h4>Faça  uma visita</h4>
+                             <form>
+                               <fieldset>
+                                 <legend>
+                                   Selecione uma data
+                                 </legend>
+
+                                    <label for="data">Data</label>
+                                       <input class="campo" type="data" id="data" value="dd/mm/aaaa">
+
+                                     <label class="campo"   for="qtd">Quantidade</label>
+                                       <input type="text" style="width: 30px;" id="qtd" value="1">
+                                    
+                                </fieldset>
+
+                                     
+                                <input class="botao" type="submit" value="Verificar Disponibilidade">    
+                                
+                                
+                                </form>
+                      </section> <!--Fim da Sessão Visita-->
+
+                      <section id="galeria"><!--Inicio da Galeria-->
+                        <h4>Galeria de Fotos</h4>
+
+                        <a href="">
+                            <img src="Imagens/imagem1.jpg" height="93" width="93">
+                        </a>
+
+                        <a href="">
+                            <img src="Imagens/imagem2.jpg" height="93" width="93">
+                        </a>
+                        <a href="">
+                            <img src="Imagens/imagem3.jpg" height="93" width="93">
+                        </a>
+                        <a href="">
+                            <img src="Imagens/imagem4.jpg" height="93" width="93">
+                        </a>
+                        
+                      </section><!--Fim da Galeria-->
+
+
+
+                </aside><!--Final Aside-->
+
+                        <footer style="clear: both;">
+
+                            <ul>
+                                <li>
+                                    <a class="esquerdo" href="">Agenda</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Contato</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Restaurante</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Fotos</a>
+                                </li>
+
+                                <li>
+                                    <a href="">Interior</a>
+                                </li>
+                            </ul>
+                            <br>
+
+                            <p>
+
+                             <a href="">&copy; Copyright 2021 Todos os direitos reservados</a>
+                             
+                            </p>
+                            
+                        </footer>
+
+           </div><!--Fim do Principal-->
+
+
+
+
+
+
+            </div> <!--Fim do Container-->
+
+            
+
+        </body>
+
+
+    </head>
+
+
+</html>
